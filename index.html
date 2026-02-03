@@ -618,44 +618,7 @@
       <!-- Sidebar -->
       <aside class="sidebar">
         <div class="side-head">
-          <div class="h">Control del proyecto</div>
-          <div class="p">Estructura BIM, cronograma, gobierno ISO 19650, QA/QC, coordinación y entregables.</div>
-        </div>
-        <nav class="nav">
-          <a href="#overview"><span>Resumen</span><span class="k">KPI</span></a>
-          <a href="#gantt"><span>Gantt 26 semanas</span><span class="k">Plan</span></a>
-          <a href="#org"><span>Organigrama</span><span class="k">Roles</span></a>
-          <a href="#governance"><span>Gobierno BIM</span><span class="k">ISO</span></a>
-          <a href="#qaqc"><span>QA/QC + Clash</span><span class="k">IFC</span></a>
-          <a href="#deliverables"><span>Entregables</span><span class="k">LOD300</span></a>
-        </nav>
-      </aside>
-
-      <!-- Content -->
-      <main class="content">
-        <!-- Overview -->
-        <section class="card" id="overview">
-          <div class="card-head">
-            <div class="t">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 21s-7-4.5-7-11a7 7 0 0 1 14 0c0 6.5-7 11-7 11Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M9.5 10.5 11 12l3.5-4" stroke="currentColor" stroke-width="2"/>
-              </svg>
-              Resumen ejecutivo
-            </div>
-            <span class="badge">Dashboard · Modern enterprise UI</span>
-          </div>
-          <div class="card-body">
-            <div class="kpis">
-              <div class="kpi">
-                <div class="l">Disciplinas</div>
-                <div class="v">7</div>
-                <div class="h">HVAC · Hidráulico · Sanitario · Pluvial · Eléctrico · PCI · Voz & Datos</div>
-              </div>
-              <div class="kpi">
-                <div class="l">Equipo estimado</div>
-                <div class="v">10–15</div>
-                <div class="h">1 BIM Manager, 4 líderes, 6–10 modeladores</div>
+          <div class="h">1 BIM Manager, 4 líderes, 8–12 modeladores + soporte BIM/QAQC (variación según hitos)</div>
               </div>
               <div class="kpi">
                 <div class="l">Modelo objetivo</div>
@@ -690,7 +653,12 @@
             <span class="badge">Plan macro · Editable</span>
           </div>
           <div class="card-body">
-            <div class="gantt-wrap">
+            
+            <div class="note" style="margin-bottom:12px">
+              Cronograma de 26 semanas alineado a fases tipo AIA (SD → DD → CD) y a un enfoque de ejecución en dos frentes (Showroom fast‑track + desarrollo global).
+              Las actividades se traslapan de forma intencional para acelerar entregas sin perder control de coordinación.
+            </div>
+<div class="gantt-wrap">
               <div class="gantt">
                 <div class="g-header">
                   <div class="left">Fases</div>
@@ -726,78 +694,100 @@
                 
       <div class="g-row">
         <div class="g-label">
-          <div class="g-name">Fase 1 · Arranque y planeación</div>
+          <div class="g-name">Movilización + Planeación (Kickoff BIM)</div>
           <div class="g-meta">Semanas 1–2</div>
         </div>
-        <div class="g-track" role="img" aria-label="Fase 1 · Arranque y planeación, semanas 1 a 2">
+        <div class="g-track" role="img" aria-label="Movilización + Planeación (Kickoff BIM), semanas 1 a 2">
           <div class="g-bar green" style="grid-column: 1 / 3;">
             <span class="g-bar-text">Sem 1–2</span>
           </div>
         </div>
-        <div class="g-deliverables"><span class="tag">Contrato + anticipo</span><span class="tag">Configuración CDE</span><span class="tag">BEP ISO 19650</span><span class="tag">Plan de trabajo</span></div>
+        <div class="g-deliverables"><span class="tag">Kickoff</span><span class="tag">CDE/ACC (WIP/Shared/Published)</span><span class="tag">BEP + MIDP + TIDP</span><span class="tag">Plan de trabajo + matriz de entregables</span></div>
       </div>
-    
-
-      <div class="g-row">
+<div class="g-row">
         <div class="g-label">
-          <div class="g-name">Fase 2 · Ingeniería básica</div>
-          <div class="g-meta">Semanas 3–6</div>
+          <div class="g-name">SD · Bases de diseño y criterios por especialidad</div>
+          <div class="g-meta">Semanas 1–4</div>
         </div>
-        <div class="g-track" role="img" aria-label="Fase 2 · Ingeniería básica, semanas 3 a 6">
-          <div class="g-bar blue" style="grid-column: 3 / 7;">
-            <span class="g-bar-text">Sem 3–6</span>
+        <div class="g-track" role="img" aria-label="SD · Bases de diseño y criterios por especialidad, semanas 1 a 4">
+          <div class="g-bar blue" style="grid-column: 1 / 5;">
+            <span class="g-bar-text">Sem 1–4</span>
           </div>
         </div>
-        <div class="g-deliverables"><span class="tag">Bases de diseño</span><span class="tag">Criterios por disciplina</span><span class="tag">Esquemas</span><span class="tag">1ª coordinación</span></div>
+        <div class="g-deliverables"><span class="tag">Bases de diseño</span><span class="tag">Criterios por disciplina</span><span class="tag">Rutas principales</span><span class="tag">Revisión temprana cliente</span></div>
       </div>
-    
-
-      <div class="g-row">
+<div class="g-row">
         <div class="g-label">
-          <div class="g-name">Fase 3 · Ing. de detalle + Modelado LOD 300</div>
-          <div class="g-meta">Semanas 7–16</div>
+          <div class="g-name">Frente A · Showroom (DD+CD Fast‑Track)</div>
+          <div class="g-meta">Semanas 3–8</div>
         </div>
-        <div class="g-track" role="img" aria-label="Fase 3 · Ing. de detalle + Modelado LOD 300, semanas 7 a 16">
-          <div class="g-bar green" style="grid-column: 7 / 17;">
-            <span class="g-bar-text">Sem 7–16</span>
+        <div class="g-track" role="img" aria-label="Frente A · Showroom (DD+CD Fast‑Track), semanas 3 a 8">
+          <div class="g-bar green" style="grid-column: 3 / 9;">
+            <span class="g-bar-text">Sem 3–8</span>
           </div>
         </div>
-        <div class="g-deliverables"><span class="tag">Diseño técnico</span><span class="tag">Modelos LOD 300</span><span class="tag">Memorias de cálculo</span><span class="tag">Clash detection</span></div>
+        <div class="g-deliverables"><span class="tag">Diseño + Modelado LOD 300 (área prioritaria)</span><span class="tag">Clash / compatibilidad</span><span class="tag">Emisión para construcción (Showroom)</span></div>
       </div>
-    
-
-      <div class="g-row">
+<div class="g-row">
         <div class="g-label">
-          <div class="g-name">Fase 4 · Documentación para construcción</div>
-          <div class="g-meta">Semanas 17–22</div>
+          <div class="g-name">DD · Proyecto global (Desarrollo LOD 300 progresivo)</div>
+          <div class="g-meta">Semanas 5–14</div>
         </div>
-        <div class="g-track" role="img" aria-label="Fase 4 · Documentación para construcción, semanas 17 a 22">
-          <div class="g-bar blue" style="grid-column: 17 / 23;">
-            <span class="g-bar-text">Sem 17–22</span>
+        <div class="g-track" role="img" aria-label="DD · Proyecto global (Desarrollo LOD 300 progresivo), semanas 5 a 14">
+          <div class="g-bar blue" style="grid-column: 5 / 15;">
+            <span class="g-bar-text">Sem 5–14</span>
           </div>
         </div>
-        <div class="g-deliverables"><span class="tag">Planos ejecutivos</span><span class="tag">Ajustes finales</span><span class="tag">QA/QC</span><span class="tag">Pre-IFC</span></div>
+        <div class="g-deliverables"><span class="tag">LOD 300 progresivo</span><span class="tag">Clash semanal (alcance Sohersa)</span><span class="tag">Gates 30/60/90</span><span class="tag">Ajustes por coordinación</span></div>
       </div>
-    
-
-      <div class="g-row">
+<div class="g-row">
         <div class="g-label">
-          <div class="g-name">Fase 5 · Entrega final y cierre</div>
-          <div class="g-meta">Semanas 23–26</div>
+          <div class="g-name">CD · Proyecto global (Proyecto Ejecutivo IFC)</div>
+          <div class="g-meta">Semanas 12–22</div>
         </div>
-        <div class="g-track" role="img" aria-label="Fase 5 · Entrega final y cierre, semanas 23 a 26">
-          <div class="g-bar green" style="grid-column: 23 / 27;">
-            <span class="g-bar-text">Sem 23–26</span>
+        <div class="g-track" role="img" aria-label="CD · Proyecto global (Proyecto Ejecutivo IFC), semanas 12 a 22">
+          <div class="g-bar green" style="grid-column: 12 / 23;">
+            <span class="g-bar-text">Sem 12–22</span>
           </div>
         </div>
-        <div class="g-deliverables"><span class="tag">Modelos finales</span><span class="tag">Planos IFC</span><span class="tag">Memorias finales</span><span class="tag">Cierre técnico</span></div>
+        <div class="g-deliverables"><span class="tag">Cálculos definitivos</span><span class="tag">Planos IFC</span><span class="tag">Modelo federado coordinado</span><span class="tag">Gates 60/90/100</span></div>
       </div>
-    
-              </div>
-            </div>
-
-            <div style="margin-top: 10px; color: var(--muted); font-size: 12px; line-height: 1.55;">
-              Nota: el gantt es una base de planeación. Las fechas definitivas dependen de la entrega oportuna de información base (arquitectura/estructura) y de ventanas de revisión/validación del cliente.
+<div class="g-row">
+        <div class="g-label">
+          <div class="g-name">Licencias y Permisos (soporte documental)</div>
+          <div class="g-meta">Semanas 18–26</div>
+        </div>
+        <div class="g-track" role="img" aria-label="Licencias y Permisos (soporte documental), semanas 18 a 26">
+          <div class="g-bar blue" style="grid-column: 18 / 27;">
+            <span class="g-bar-text">Sem 18–26</span>
+          </div>
+        </div>
+        <div class="g-deliverables"><span class="tag">Soporte documental</span><span class="tag">Ajustes por observaciones</span><span class="tag">Trazabilidad en CDE</span></div>
+      </div>
+<div class="g-row">
+        <div class="g-label">
+          <div class="g-name">BN · Licitación / Aclaraciones / Addendas</div>
+          <div class="g-meta">Semanas 23–25</div>
+        </div>
+        <div class="g-track" role="img" aria-label="BN · Licitación / Aclaraciones / Addendas, semanas 23 a 25">
+          <div class="g-bar green" style="grid-column: 23 / 26;">
+            <span class="g-bar-text">Sem 23–25</span>
+          </div>
+        </div>
+        <div class="g-deliverables"><span class="tag">Respuestas técnicas</span><span class="tag">Aclaraciones</span><span class="tag">Addendas / versiones controladas</span></div>
+      </div>
+<div class="g-row">
+        <div class="g-label">
+          <div class="g-name">CA · Acompañamiento inicial a obra (RFIs)</div>
+          <div class="g-meta">Semanas 24–26</div>
+        </div>
+        <div class="g-track" role="img" aria-label="CA · Acompañamiento inicial a obra (RFIs), semanas 24 a 26">
+          <div class="g-bar blue" style="grid-column: 24 / 27;">
+            <span class="g-bar-text">Sem 24–26</span>
+          </div>
+        </div>
+        <div class="g-deliverables"><span class="tag">Atención a RFIs</span><span class="tag">Coordinación de cambios</span><span class="tag">Soporte a arranque</span></div>
+      </div>
             </div>
           </div>
         </section>
